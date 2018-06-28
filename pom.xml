@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.brandon</groupId>
-	<artifactId>HerokuRest</artifactId>
+	<groupId>com.jay.exclamation</groupId>
+	<artifactId>j-console</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>HerokuRest</name>
+	<name>jConsole</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -26,11 +26,6 @@
 			<groupId>com.jayway.jsonpath</groupId>
 			<artifactId>json-path</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.jscience</groupId>
-			<artifactId>jscience</artifactId>
-			<version>4.3.1</version>
 		</dependency>
 	</dependencies>
 
